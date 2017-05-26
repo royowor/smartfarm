@@ -30,9 +30,9 @@ HC 05 blue tooth module
 
 ## Contributors
 
-Roy Owor   
-Ivan Muhworozi
-Daisy
+Owor Innocent Roy    
+Sentio Kauta
+Daisy Asaba
 
 ## License
 
