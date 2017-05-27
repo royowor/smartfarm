@@ -116,13 +116,11 @@
 
                     <ImageView
                         android:id="@+id/lighting_dashboard_btn"
-
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
+                        android:src="@drawable/lighting"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginTop="16dp"
                         android:layout_centerInParent="true"
-
-
                         />
 
                     <TextView
@@ -130,11 +128,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="120dp"
                         android:text="@string/lighting_label"
                         android:textSize="18sp"
                         android:textStyle="bold" />
-
 
                 </RelativeLayout>
             </LinearLayout>
@@ -154,10 +151,11 @@
 
                     <ImageView
                         android:id="@+id/airflow_dashboard_btn"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginTop="26dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="16dp"
                         android:layout_centerInParent="true"
+                        android:src="@drawable/airflow"
                         />
 
                     <TextView
@@ -165,8 +163,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="120dp"
                         android:textSize="18sp"
+                        android:text="@string/airflow_label"
                         android:textStyle="bold" />
 
                 </RelativeLayout>

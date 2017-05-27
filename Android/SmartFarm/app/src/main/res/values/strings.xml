@@ -5,4 +5,5 @@
     <string name="soil_moisture_label">Soil Moisture</string>
     <string name="temperature_label">Temperature</string>
     <string name="lighting_label">Lighting</string>
+    <string name="airflow_label">Airflow</string>
 </resources>
