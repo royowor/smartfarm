@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Smart Farm</string>
+    <string name="backdrop_title"></string>
+    <string name="backdrop_subtitle"></string>
+    <string name="soil_moisture_label">Soil Moisture</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="lighting_label">Lighting</string>
 </resources>
