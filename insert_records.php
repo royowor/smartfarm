@@ -40,7 +40,7 @@ $response = array();
 } else {
     // required field is missing
     $response["success"] = 0;
-    $response["message"] = "Required you can only vote once";
+    $response["message"] = "Duplicant entry";
 
     // echoing JSON response
     echo json_encode($response);
