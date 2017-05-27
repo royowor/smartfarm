@@ -16,6 +16,9 @@
 package net.nepepe.smartfarm.core;
 
 import java.security.Timestamp;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -25,13 +28,14 @@ public class SensorData implements Validator {
 
     private String sensorType;
     private float outputValue;
-    private Timestamp timestamp;
+    private String timestamp;
     private List<String> errorMessages;
 
     public SensorData(){
-        sensorType = null;
+        sensorType = new String();
         outputValue = 0;
         timestamp = null;
+        errorMessages = new ArrayList<String>();
     }
 
     /**
@@ -51,7 +55,7 @@ public class SensorData implements Validator {
             errorMessages.add(Errors.INVALID_SENSOR_TYPE);
         }
 
-        if(timestamp != null){
+        if(timestamp == null){
             result = false;
             errorMessages.add(Errors.INVALID_TIMESTAMP);
         }
@@ -61,7 +65,18 @@ public class SensorData implements Validator {
 
     @Override
     public List<String> errorMessages() {
-        return errorMessages();
+        return errorMessages;
     }
 
+    public void setType(String type) {
+        sensorType = type;
+    }
+
+    public void setOutputValue(float outputValue) {
+        this.outputValue = outputValue;
+    }
+
+    public  void setTimestamp(Date date){
+        this.timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(date);
+    }
 }

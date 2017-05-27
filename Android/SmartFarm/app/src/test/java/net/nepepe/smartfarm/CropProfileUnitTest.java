@@ -30,7 +30,6 @@ public class CropProfileUnitTest {
         assertThat(cropProfile.isValid(), is(true));
     }
 
-
     @Test
     public void CropProfile_Is_Not_Valid_On_Initialization() {
 
@@ -40,7 +39,6 @@ public class CropProfileUnitTest {
         //Assert
         assertThat(cropProfile.isValid(), is(false));
     }
-
 
     @Test
     public void CropProfile_Expects_Seven_Of_Its_Business_Rules_To_Be_Mate() {
