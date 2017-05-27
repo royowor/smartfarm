@@ -8,15 +8,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:paddingTop="20dp"
+        android:paddingTop="0dp"
         >
-
+        <TextView
+            android:layout_width="match_parent"
+            android:background="@color/orange"
+            android:layout_height="20dp"
+            android:text=""
+            android:padding="0dp"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingBottom="10dp">
+            android:padding="10dp"
+
+            >
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -32,11 +38,12 @@
                     <ImageView
                         android:id="@+id/soil_moisture_dashboard_btn"
 
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:src="@drawable/soil_moisture"
                         android:layout_marginTop="16dp"
                         android:layout_centerInParent="true"
+                        android:elevation="8dp"
                         />
 
                     <TextView
@@ -44,7 +51,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="120dp"
                         android:text="@string/soil_moisture_label"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -68,9 +75,9 @@
 
                     <ImageView
                         android:id="@+id/temperature_dashboard_btn"
-
-                        android:layout_width="60dp"
-                        android:layout_height="60dp"
+                        android:src="@drawable/temperature"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_marginTop="16dp"
                         android:layout_centerInParent="true"
                         />
@@ -80,7 +87,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="100dp"
+                        android:layout_marginTop="120dp"
                         android:text="@string/temperature_label"
                         android:textSize="18sp"
                         android:textStyle="bold" />
