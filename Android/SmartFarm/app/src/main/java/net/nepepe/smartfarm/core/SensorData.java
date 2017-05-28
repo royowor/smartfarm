@@ -38,6 +38,13 @@ public class SensorData implements Validator {
         errorMessages = new ArrayList<String>();
     }
 
+    public SensorData(String sensorType, float outputValue, String timestamp){
+        this.sensorType = sensorType;
+        this.outputValue = outputValue;
+        this.timestamp = timestamp;
+        errorMessages = new ArrayList<String>();
+    }
+
     /**
      * Class instance validation checker
      *

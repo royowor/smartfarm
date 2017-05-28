@@ -1,4 +1,4 @@
-package net.nepepe.smartfarm;
+package net.nepepe.smartfarm.presentation;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -18,6 +18,8 @@ import com.github.mikephil.charting.data.LineDataSet;
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter;
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet;
 import com.github.mikephil.charting.utils.ColorTemplate;
+
+import net.nepepe.smartfarm.R;
 
 import java.util.ArrayList;
 import java.util.List;

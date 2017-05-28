@@ -16,4 +16,7 @@
     <string name="current_reading_title">Current Reading</string>
     <string name="current_reading">51%</string>
     <string name="sensor_detail_title">Soil Moisture Content</string>
+    <string name="action_btn_txt">Irrigate Farm</string>
+    <string name="optimum_range_label">Optimum Rage</string>
+    <string name="take_action_title">Low Soil Moisture Content</string>
 </resources>

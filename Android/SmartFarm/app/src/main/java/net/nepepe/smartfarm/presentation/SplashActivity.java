@@ -1,8 +1,10 @@
-package net.nepepe.smartfarm;
+package net.nepepe.smartfarm.presentation;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import net.nepepe.smartfarm.presentation.MainActivity;
 
 public class SplashActivity extends AppCompatActivity {
 

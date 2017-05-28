@@ -8,17 +8,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".presentation.MainActivity">
         </activity>
-        <activity android:name=".SensorDataDetailActivity">
+        <activity android:name=".presentation.SensorDataDetailActivity">
         </activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name=".presentation.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".presentation.TakeActionActivity">
+        </activity>
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     </application>
 
 </manifest>
