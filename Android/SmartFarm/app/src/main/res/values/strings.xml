@@ -6,4 +6,14 @@
     <string name="temperature_label">Temperature</string>
     <string name="lighting_label">Lighting</string>
     <string name="airflow_label">Airflow</string>
+    <string name="low_label">Lowest</string>
+    <string name="highest_label">Highest</string>
+    <string name="lowest_reading">35%</string>
+    <string name="average_reading_label">Average Reading:</string>
+    <string name="highest_reading">65%</string>
+    <string name="graph_title">Moisture Content for Last 14 Days</string>
+    <string name="optimum_title">Optimum Range  45 - 65 %</string>
+    <string name="current_reading_title">Current Reading</string>
+    <string name="current_reading">51%</string>
+    <string name="sensor_detail_title">Soil Moisture Content</string>
 </resources>
